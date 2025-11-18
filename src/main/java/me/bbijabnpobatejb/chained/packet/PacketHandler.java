@@ -27,9 +27,7 @@ public class PacketHandler {
     public final Identifier CHANNEL = new Identifier(MOD_ID, "main");
 
     public void register() {
-        ServerLifecycleEvents.SERVER_STARTED.register(server -> {
-            PacketHandler.server = server;
-        });
+        ServerLifecycleEvents.SERVER_STARTED.register(server -> PacketHandler.server = server);
 
 
         ClientSidePacketRegistry.INSTANCE.register(CHANNEL, (context, buf) -> {

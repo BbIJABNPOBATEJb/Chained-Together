@@ -16,7 +16,6 @@ import static lombok.AccessLevel.PRIVATE;
 @Getter
 @FieldDefaults(level = PRIVATE, makeFinal = true)
 public class ChainedTogether implements ModInitializer {
-    public static final boolean TEST = true;
     public static final String MOD_ID = "chained-together";
     public static final String MOD_NAME = "Chained Together";
     public static final Logger LOGGER = LogManager.getLogger(MOD_ID);
