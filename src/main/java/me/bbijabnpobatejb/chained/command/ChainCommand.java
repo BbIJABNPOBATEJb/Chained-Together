@@ -105,7 +105,7 @@ public class ChainCommand {
         return 0;
     }
 
-    int chainDistance(CommandContext<ServerCommandSource> ctx) throws CommandSyntaxException {
+    int chainDistance(CommandContext<ServerCommandSource> ctx) {
         val v = DoubleArgumentType.getDouble(ctx, DISTANCE);
         ChainHandler.CHAIN_DISTANCE = v;
         ctx.getSource().sendFeedback(new LiteralText("§aДистанция цепи установлена на " + v + "."), false);
