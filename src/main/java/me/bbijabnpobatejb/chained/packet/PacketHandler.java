@@ -4,7 +4,6 @@ import com.ibm.icu.impl.Pair;
 import io.netty.buffer.Unpooled;
 import lombok.experimental.UtilityClass;
 import lombok.val;
-import me.bbijabnpobatejb.chained.ChainedTogether;
 import me.bbijabnpobatejb.chained.client.render.ChainRender;
 import me.bbijabnpobatejb.chained.entity.chained.ChainHandler;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents;

@@ -3,12 +3,10 @@ package me.bbijabnpobatejb.chained.entity.chained;
 import com.ibm.icu.impl.Pair;
 import lombok.experimental.UtilityClass;
 import lombok.val;
-import me.bbijabnpobatejb.chained.command.ChainCommand;
 import me.bbijabnpobatejb.chained.packet.PacketHandler;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
 import net.minecraft.entity.Entity;
 import net.minecraft.server.MinecraftServer;
-import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.util.Identifier;
 
 import java.util.*;

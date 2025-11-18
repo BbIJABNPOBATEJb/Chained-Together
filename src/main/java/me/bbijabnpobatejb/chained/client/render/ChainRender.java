@@ -7,7 +7,6 @@ import lombok.experimental.UtilityClass;
 
 import java.util.HashSet;
 import java.util.Set;
-import java.util.UUID;
 
 @UtilityClass
 public class ChainRender {
