@@ -13,13 +13,13 @@ movement-linked behavior.
 
 ## Commands
 
-`/chain <target>  `
+`/chain <target>`
 Chain yourself to the specified entity
 
-`/chain <target1> <target2>  `
+`/chain <target1> <target2>`
 Chain two entities together
 
-`/unchain  `
+`/unchain`
 Unlink from all currently chained entities
 
 `/chaindistance <value>`
